@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hisham | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">Hisham</h2>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="hero">
+      <h1>Hi, I'm Hisham 👋</h1>
+      <p>Front-End Developer & Designer</p>
+      <button onclick="scrollToSection('projects')">View My Work</button>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate front-end developer specializing in building modern,
+        responsive, and user-friendly websites.
+      </p>
+    </section>
+    <!-- Bio
+    <section class="bio-container">
+      <div class="bio-card">
+        <div class="bio-image">
+          <span>👨‍💻</span>
+        </div>
+        <div class="bio-content">
+          <h1>أهلاً، أنا <span class="highlight">[اسمك هنا]</span></h1>
+          <h3>مطور واجهات مستخدم | Frontend Developer</h3>
+          <p>
+            شغوف بتحويل الأفكار الإبداعية إلى واقع تفاعلي باستخدام
+            <strong>JavaScript</strong> و <strong>CSS</strong>. أركز على بناء
+            مواقع سريعة، متجاوبة، وذات كود نظيف وسهل التطوير. أؤمن بأن الكود
+            الجيد هو الذي يجمع بين جمال التصميم وقوة الأداء.
+          </p>
+          <div class="bio-links">
+            <a href="#contact" class="btn-primary">تواصل معي</a>
+            <a href="#projects" class="btn-secondary">شاهد أعمالي</a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>My Projects</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>User Dashboard</h3>
+          <p>JS + HTML + CSS</p>
+          <a href=" https://hisham17.github.io/User-Dashbord-js" target="_blank"
+            >Live Demo</a
+          >
+        </div>
+
+        <div class="project-card">
+          <h3>Coming Soon</h3>
+          <p>More projects soon</p>
+          <a href="#">---</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <!-- <section id="contact">
+      <h2>Contact Me</h2>
+
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Message" required></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section> -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+      <div class="contact-info">
+        <p>
+          Feel free to reach out directly at:
+          <a href="mailto:hisham.abd.m@gmail.com">hisham.abd.m@gmail.com</a>
+        </p>
+      </div>
+
+      <form
+        id="contactForm"
+        action="https://formspree.io/f/xaqdbzjz"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Message" required></textarea>
+        <input type="hidden" name="_subject" value="New message from portfolio!">
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>© 2026 Hisham Ali. All Rights Reserved.</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

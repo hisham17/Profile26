@@ -1,0 +1,23 @@
+.about-section {
+    padding: 50px 20px;
+    line-height: 1.8;
+    color: #333;
+    max-width: 800px;
+    margin: auto;
+    text-align: right; /* للغة العربية */
+}
+
+.about-section h2 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+blockquote {
+    border-right: 5px solid #3498db;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background: #f9f9f9;
+    font-style: italic;
+}
