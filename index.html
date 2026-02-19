@@ -19,8 +19,10 @@
 
     <!-- Home -->
     <section id="home" class="hero">
+      <img src="images (1).jfif" class="avatar" />
       <h1>Hi, I'm Hisham 👋</h1>
       <p>Front-End Developer & Designer</p>
+
       <button onclick="scrollToSection('projects')">View My Work</button>
     </section>
 
@@ -31,29 +33,22 @@
         I am a passionate front-end developer specializing in building modern,
         responsive, and user-friendly websites.
       </p>
+      <p>
+        Front-End Developer specialized in modern websites and UI/UX design.
+        Looking for freelance and remote opportunities.
+      </p>
+      <!-- 2. Skills Section -->
     </section>
-    <!-- Bio
-    <section class="bio-container">
-      <div class="bio-card">
-        <div class="bio-image">
-          <span>👨‍💻</span>
-        </div>
-        <div class="bio-content">
-          <h1>أهلاً، أنا <span class="highlight">[اسمك هنا]</span></h1>
-          <h3>مطور واجهات مستخدم | Frontend Developer</h3>
-          <p>
-            شغوف بتحويل الأفكار الإبداعية إلى واقع تفاعلي باستخدام
-            <strong>JavaScript</strong> و <strong>CSS</strong>. أركز على بناء
-            مواقع سريعة، متجاوبة، وذات كود نظيف وسهل التطوير. أؤمن بأن الكود
-            الجيد هو الذي يجمع بين جمال التصميم وقوة الأداء.
-          </p>
-          <div class="bio-links">
-            <a href="#contact" class="btn-primary">تواصل معي</a>
-            <a href="#projects" class="btn-secondary">شاهد أعمالي</a>
-          </div>
-        </div>
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>WordPress</span>
+        <span>UI Design</span>
       </div>
-    </section> -->
+    </section>
 
     <!-- Projects -->
     <section id="projects">
@@ -91,6 +86,8 @@
       <h2>Contact Me</h2>
 
       <div class="contact-info">
+        <a href="cv.pdf" download class="cv-btn">Download CV</a>
+
         <p>
           Feel free to reach out directly at:
           <a href="mailto:hisham.abd.m@gmail.com">hisham.abd.m@gmail.com</a>
@@ -105,7 +102,11 @@
         <input type="text" name="name" placeholder="Your Name" required />
         <input type="email" name="email" placeholder="Your Email" required />
         <textarea name="message" placeholder="Message" required></textarea>
-        <input type="hidden" name="_subject" value="New message from portfolio!">
+        <input
+          type="hidden"
+          name="_subject"
+          value="New message from portfolio!"
+        />
         <button class="btn" type="submit">Send</button>
       </form>
     </section>
